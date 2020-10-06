@@ -17,7 +17,6 @@ class App extends React.Component {
         const {auth, setUserUid} = this.context;
         const { addUser } = this.props;
 
-        console.log('#### state:', this.props.user)
         auth.onAuthStateChanged((user) => {
             if (user) {
                 setUserUid(user.uid);

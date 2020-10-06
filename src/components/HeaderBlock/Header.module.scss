@@ -1,0 +1,36 @@
+.cover {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #000;
+  background-image: url("./background.jpg");
+
+  &:after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    //height: 100vh;
+    background-image: linear-gradient(to top, rgba(26,40,120,0.70), rgba(10,143,196,0.70));
+  }
+
+  .wrap {
+    position: relative;
+    z-index: 1;
+    padding: 40px 16px;
+    max-width: 1024px;
+  }
+}

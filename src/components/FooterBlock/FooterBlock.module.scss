@@ -1,0 +1,17 @@
+.footer {
+  height: 150px;
+  background: linear-gradient(to top, rgba(1, 11, 88, 0.7), rgb(2, 24, 71));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    color: white;
+  }
+
+  .author {
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(81deg, #ddb35f, #7409c7);
+  }
+}

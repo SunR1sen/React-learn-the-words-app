@@ -1,0 +1,12 @@
+.root {
+  list-style: none;
+  padding: 0 60px;
+  //display: grid;
+  //gap: 15px;
+  //grid-template-columns: repeat(4, 1fr);
+  //justify-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
